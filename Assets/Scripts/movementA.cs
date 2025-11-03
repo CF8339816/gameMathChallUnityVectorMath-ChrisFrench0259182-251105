@@ -6,14 +6,14 @@ public class movePlat2 : MonoBehaviour
     [SerializeField] int speed = 0;
     [SerializeField] int xmove = 0;
     [SerializeField] int ymove = 0;
-    [SerializeField] int zmove = 1;
+    [SerializeField] int zmove = 0;
     Vector3 startPosition;
 
     void Start()
     {
 
-        // transform.position = startPosition;
-        transform.position = new Vector3(0, 0, 0);
+        transform.position = startPosition;
+       // transform.position = new Vector3(0, 0, 0);
     }
 
     // Update is called once per frame
